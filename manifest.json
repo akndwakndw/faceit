@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "FaceIT Picker",
+    "version": "0.2",
+    "description": "A simple addon that copies data from one div to another",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
